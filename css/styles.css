@@ -34,10 +34,18 @@ body {
 
 .main-nav-item a {
     color: var(--title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
 }
 
 .contacts-item a {
     color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .main-nav-item a:hover,
@@ -55,21 +63,17 @@ body {
     color: #ffffff;
     font-size: 44px;
     font-weight: 900;
+    text-transform: uppercase;  
+    line-height: 60px;
+    letter-spacing: 0.06em;
 }
 
 .hero-btn {
     color: #ffffff;
     background-color: var(--brand-color);
+    font-family: inherit;
     font-size: 16px;
     font-weight: 700;
-}
-
-.skills {
-    background: #E5E5E5;
-}
-
-.works {
-    background: #E5E5E5;
 }
 
 .ourTeam {
@@ -80,23 +84,28 @@ body {
 .works h2,
 .ourTeam h2 {
     color: var(--title-color);
+    font-weight: 700;
     font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
 }
 
 .skills-item p,
 .ourTeam-item p {
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
 }
 
 .skills-item h3,
 .ourTeam-item h3 {
     color: var(--title-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-}
-
-.portfolio{
-    background-color: #E5E5E5;
+    line-height: 19px;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-nav-item button {
@@ -110,6 +119,7 @@ body {
 .portfolio-nav-item button:focus {
     background-color: var(--brand-color);
     color: #ffffff;
+    cursor: pointer;
 }
 
 .portfolio-list-item{
@@ -117,13 +127,20 @@ body {
 }
 
 .portfolio-list-item h2 {
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: inherit;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
 }
 
 .portfolio-list-item p {
-    font-size: 16px;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    font-family: inherit;
 }
 
 .footer {
@@ -132,8 +149,13 @@ body {
 
 .footer address {
     font-style: normal;
+    color:rgba(255, 255, 255, 0.6)
 }
 
 .footer p {
     color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
