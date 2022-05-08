@@ -153,6 +153,8 @@ body {
 .footer address {
     font-family: inherit;
     font-style: normal;
+}
+.footer address a{
     color:rgba(255, 255, 255, 0.6)
 }
 
