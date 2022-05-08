@@ -93,26 +93,29 @@ body {
 .skills-item p,
 .ourTeam-item p {
     color: var(--text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 24px;
     letter-spacing: 0.03em;
 }
 
 .skills-item h3,
 .ourTeam-item h3 {
     color: var(--title-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .portfolio-nav-item button {
     background-color: #F5F4FA;
     color: var(--title-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-nav-item button:hover,
@@ -127,20 +130,20 @@ body {
 }
 
 .portfolio-list-item h2 {
+    font-family: inherit;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    font-family: inherit;
     letter-spacing: 0.06em;
     color: var(--title-color);
 }
 
 .portfolio-list-item p {
-    font-weight: 400;
+    font-family: inherit;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    font-family: inherit;
+    color: var(--text-color); 
 }
 
 .footer {
@@ -148,13 +151,13 @@ body {
 }
 
 .footer address {
+    font-family: inherit;
     font-style: normal;
     color:rgba(255, 255, 255, 0.6)
 }
 
 .footer p {
     color: #ffffff;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
